@@ -16,7 +16,7 @@ from main import prompt
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token="6701014079:AAFMdvjJ68op7f8h_ZjZzTRZYaL1A8qGwm0")
+bot = Bot(token="YOUR_BOT_TOKEN")
 dp = Dispatcher(bot=bot, storage=MemoryStorage())
 
 Base = declarative_base()
